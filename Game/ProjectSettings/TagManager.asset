@@ -12,8 +12,8 @@ TagManager:
   - Water
   - UI
   - Escenario1
-  - 
-  - 
+  - lejanoN1
+  - cercanoN1
   - 
   - 
   - 
@@ -40,6 +40,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: lejanoN1
+    uniqueID: 2352518735
+    locked: 0
+  - name: cercanoN1
+    uniqueID: 830888847
     locked: 0
   - name: Escenario1
     uniqueID: 728474893
