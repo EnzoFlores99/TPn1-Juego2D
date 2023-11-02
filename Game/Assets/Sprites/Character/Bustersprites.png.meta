@@ -1,0 +1,2569 @@
+fileFormatVersion: 2
+guid: 8cb34d7260df88c47afe63bf0888b728
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 942, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bustersprites_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1020
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d2aec70f66f434b86df46633944e4c
+      internalID: -2091490989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1021
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68629ca82c3ebc4d8d14eadfc4bb0b2
+      internalID: 139656032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1020
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc20c09f76410194f8e3f934b047524a
+      internalID: 2074691792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1018
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef419b47c5a51b54d9fb1c9a2cf146d3
+      internalID: 1703741793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 892
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8df72532091a4298e73607627bdac
+      internalID: 366201821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 894
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdee08cd4af96244bb55e76f34aa0db
+      internalID: 1027471416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 893
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb6b30e0afbc57438b486e760218e35
+      internalID: 478313948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 893
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1977a5edff04e148bab460b62486e1d
+      internalID: -376957561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 893
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb64d9c27797b64d8f00b1569cfb9e5
+      internalID: -1232798075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 892
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a8cc46990c5e4ba20976e8e0e162e
+      internalID: -820638097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 821
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5345b2c1cd1644abbe0c04a3308391
+      internalID: -1257146998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 824
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceffd9268fb77cd4293546e0ee1ba7aa
+      internalID: 1229983360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 825
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d235ade5c6e24d14fabdcbd0b25120b5
+      internalID: -805611555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 825
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa6ac2194f3dd143a6219fcadefa122
+      internalID: 5651324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 827
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48c42a2477e4f449a4e9e62530a479
+      internalID: 1544658165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 830
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c315425aa8aa94e9da8861602da14f
+      internalID: 1539355301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_23
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 831
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fd4724e4da17847ae2b9451c57d3ac
+      internalID: 1946359806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_24
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 831
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134a9baaf0c1014aa94f069f5c6b81b
+      internalID: -327535624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 759
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aa34d818d9681469a6fce0c52762ea
+      internalID: 1091253247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 760
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b443f885aab14ab8308e425d21035
+      internalID: 1451239569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 766
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410bf74f0d8276a4cbc20fbf19f1af44
+      internalID: -1460845943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 770
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef90dabc4c1a6f4ba032558f366cfcc
+      internalID: -543005210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 765
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88692b5b071739941ac080158deca80e
+      internalID: -1206074339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 768
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d32062d9466b84d84455d09c2e142d
+      internalID: -1969356507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 699
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd610ac1a98d724483e9a689d529b23
+      internalID: 2052727734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 697
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fac02ce6b0ce8d4385ca67911783ac4
+      internalID: 1843724969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 692
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa7a95ffcbae934ab07cca8e2f8f693
+      internalID: -1716765098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 635
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea96074cf3f89f4b8c769b77383c8d5
+      internalID: 2030966070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_39
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 636
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e40e7347b366f44b5dcfe2bfd2dd0a
+      internalID: -820055099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_40
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 633
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88397f5535d5f614583ee674b686adb5
+      internalID: -938532007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 569
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efa59707bd53c439450f71e65abae5
+      internalID: 8819851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 570
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f9d751cdfaa145b134a2934c2360a
+      internalID: 1985828203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_43
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 572
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0729985c8f276be49999e9ef1bf1abd5
+      internalID: 1814552396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 502
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7e5e4b6123b6d43a297a9b8e91ad86
+      internalID: -1287566135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_45
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 501
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4486aa40c00094b4e95db75f2c9ec3dd
+      internalID: -716595188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 528
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a96c1403ed3c843a0c105d00383376
+      internalID: -151454549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 501
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd9654fb841e48478f74ebb1b2af293
+      internalID: 774343005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 526
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d176d82c7fb9044f90b4e6a90fa5c78
+      internalID: -359856188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 501
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948030b1f158a2f4680c8db42f17177c
+      internalID: 1277474470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_50
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 500
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd28ad57d77e04b87c09bb5599d000
+      internalID: -1869201302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 437
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966494c0498a71c4095fe6aa3e0c7d1c
+      internalID: -1751702054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_52
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 437
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58717ada47ede3d4fbd8dc2262d1a9b6
+      internalID: -82214640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_53
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 438
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed69ec4eb49862439c37cf88475f8c1
+      internalID: -561763286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_54
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 440
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084f99f9f4c58df4582759706f602d91
+      internalID: -1865728456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_55
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 439
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f247930c459b8e946b85ce91ad6e1b4c
+      internalID: -1067957501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_56
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 440
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db6ed002b2f4934f82e33787a8d3763
+      internalID: -495150736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 439
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7530de741ca9ef9498e3d14f92200cd8
+      internalID: -1129606906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_58
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 360
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df61ea98a3ef62c42b439f6eb2c724bb
+      internalID: 89706266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_59
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 362
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ea5037d3ea12744b65294d637d3093
+      internalID: -369264048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_60
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 364
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aad9d831a1f3647aaecec1e0a355b2
+      internalID: -1059619478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_61
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 365
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ab74f1c89b76419546583415fbac1
+      internalID: -1896825575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_62
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 370
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497e32e709e9bc349a8b09a38f4bfbf4
+      internalID: 1125274033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_63
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 370
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea0d2958e4b314c97a39b8bf08721f
+      internalID: 763761687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_64
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 368
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658c7fd43adc87f44ac2e8fe4a071a0b
+      internalID: -92631811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_65
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 294
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121846296d0f0204a951703cb14d40e9
+      internalID: 1042156538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_66
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 295
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6829be4f08c61fb41b93e331b16848bc
+      internalID: 698062848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 296
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d1122c4189dd04294bedb77cf463b4
+      internalID: -1201761662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_68
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 295
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526187646c091304ead40c9e424d0056
+      internalID: -1577596939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 295
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4619cb7501c2a409d0c29758b5e33c
+      internalID: 662802282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_72
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 277
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b14aa1e28a4d2f48a5fb17c40a969ba
+      internalID: 106126660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_73
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 271
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de111937fd025ba4a970d41a00775df1
+      internalID: 7834356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_74
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 273
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60e565d0346a34c9bdbe5396ed1ea5
+      internalID: -13194356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_75
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 273
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e2bf3f1b7474f4d83a7e9710e9ff8d
+      internalID: -1664492191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_76
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 272
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68646d05f5a7774488848bacf524abc
+      internalID: 1631641153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_77
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 271
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e81f2bc803f6b4f9437fd20edbe66e
+      internalID: -1197088315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 270
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210f2878a3fbd1148b6c3585250239b0
+      internalID: 215039578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_79
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 236
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b871f43a28e61549a43f40f59d134d7
+      internalID: -281996694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_80
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 237
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bae27a611d9f14f9fabf5e186b72a5
+      internalID: 67044404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_81
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 234
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e301148b0739148b1267dba35ca226
+      internalID: 1830546064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_82
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 233
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0906284fccb84b95c1ab11899442b
+      internalID: 1298239725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_83
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 270
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f831bfb599353a64f9aa050097746565
+      internalID: -138463408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_84
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 270
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ed52865020ecb44944d8e5ca805035
+      internalID: 590320052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_85
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 269
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf12f563f1c044897581b22f58a2d2
+      internalID: -1456845134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923a65b2ebe7704782d324b654b6930
+      internalID: -837005650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_91
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 158
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13264f685ee3df044b9326df8e49eb9b
+      internalID: -766376204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_92
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 157
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012deb85480bd8b4685926c8eb791f91
+      internalID: 630924900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_93
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 159
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567814ff5da89384cab2176921ff9b40
+      internalID: -1159293510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_94
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 158
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c65e732c47c3704aa383a887cd3a63e
+      internalID: -57042550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 157
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f56c29dfa108240a551e4d1407947a
+      internalID: -1752917947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_96
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 87
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a32f23e0d9744ca69056375f9bae2
+      internalID: -930947982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_97
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 87
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90a6c3ffadf8544387f221751babfde
+      internalID: 1728461954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_98
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 88
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d1b60d420fdf6408c352e18aaf37a4
+      internalID: 1348842577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_99
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 87
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa4dd7f8b672c42b9b2771aa43ac94
+      internalID: -865377594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_100
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 89
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac62c0f8d4a5dfe4c857e42141c7859a
+      internalID: -1642856937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_101
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 87
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3f3c66ab8c2704fa60fdc7845cd97f
+      internalID: 1572593355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_102
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 84
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb4dccd510c954bbdfebbe42b27b03
+      internalID: 967366964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_103
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 83
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8a62eed32ec54aa81f903e7d12761
+      internalID: -630175729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_104
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 16
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da6a195013c49742a12d2742eab4950
+      internalID: 641109376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_105
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 16
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252bba88258fbbb4fac9f18f3e4171f2
+      internalID: -1610080728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_106
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 17
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051319d6ba2fee74e91772ae4da13bfc
+      internalID: -925042247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_107
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 16
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308d0b8b639b10d43a2dd1c616c0576f
+      internalID: 2005128711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_108
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 15
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939549a9a73fbe94cb8b5fa647165473
+      internalID: -1786981353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_109
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 12
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23841baf4926d341a1ecddcd5292eba
+      internalID: 1552661973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_110
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 17
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fcf0e8be934414e85d30da3dbf2b49
+      internalID: -672725499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1020
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbe43ac21cc49b42886a23676002309
+      internalID: -1682447588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 955
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd075347ad1e73144b76b9024b288567
+      internalID: -760467451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 955
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01509be46d0c78b4cae12e95422a958c
+      internalID: 1746357342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 957
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886a2fe817a3e2e4696029ebda4bdb47
+      internalID: -1141393254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 959
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c86fe3ce982ce444a31f48d901913ae
+      internalID: -165416766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 958
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8516786b787d45c408c7106c62cfd909
+      internalID: -538304015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 957
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1d4e83255904b4da199c9805054cd3
+      internalID: -2060346649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 700
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8120c464c8764d967e83c39167d73
+      internalID: -538864044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 701
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493658158fc40fa41a7b040d04d792da
+      internalID: -2133678135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 699
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db210a88c3fd754685ea7c234964199
+      internalID: -467928654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 703
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f552ca47911f74b97bfe3b79e1adea
+      internalID: 2049773011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_70
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 291
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431993fe3f31d9e409dae7e7102df1bf
+      internalID: -200238658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_71
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 291
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4723e5bd1173484d823e016c7ca2dc0
+      internalID: -1769381497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_86
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 235
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396c591300fd33349841dabe020e70f6
+      internalID: -1030359366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_87
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 236
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c52b6a45f632a4699efff4264a5344
+      internalID: -69334657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_88
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 236
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac025e74d69e8b146ab16755f2c1c365
+      internalID: 1379675694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bustersprites_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 236
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b8421e6d3f28429341195b0c24f80
+      internalID: 1078164342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bustersprites_0: -1682447588
+      Bustersprites_1: -2091490989
+      Bustersprites_10: -2060346649
+      Bustersprites_100: -1642856937
+      Bustersprites_101: 1572593355
+      Bustersprites_102: 967366964
+      Bustersprites_103: -630175729
+      Bustersprites_104: 641109376
+      Bustersprites_105: -1610080728
+      Bustersprites_106: -925042247
+      Bustersprites_107: 2005128711
+      Bustersprites_108: -1786981353
+      Bustersprites_109: 1552661973
+      Bustersprites_11: 366201821
+      Bustersprites_110: -672725499
+      Bustersprites_12: 1027471416
+      Bustersprites_13: 478313948
+      Bustersprites_14: -376957561
+      Bustersprites_15: -1232798075
+      Bustersprites_16: -820638097
+      Bustersprites_17: -1257146998
+      Bustersprites_18: 1229983360
+      Bustersprites_19: -805611555
+      Bustersprites_2: 139656032
+      Bustersprites_20: 5651324
+      Bustersprites_21: 1544658165
+      Bustersprites_22: 1539355301
+      Bustersprites_23: 1946359806
+      Bustersprites_24: -327535624
+      Bustersprites_25: 1091253247
+      Bustersprites_26: 1451239569
+      Bustersprites_27: -1460845943
+      Bustersprites_28: -543005210
+      Bustersprites_29: -1206074339
+      Bustersprites_3: 2074691792
+      Bustersprites_30: -1969356507
+      Bustersprites_31: -538864044
+      Bustersprites_32: -2133678135
+      Bustersprites_33: -467928654
+      Bustersprites_34: 2049773011
+      Bustersprites_35: 2052727734
+      Bustersprites_36: 1843724969
+      Bustersprites_37: -1716765098
+      Bustersprites_38: 2030966070
+      Bustersprites_39: -820055099
+      Bustersprites_4: 1703741793
+      Bustersprites_40: -938532007
+      Bustersprites_41: 8819851
+      Bustersprites_42: 1985828203
+      Bustersprites_43: 1814552396
+      Bustersprites_44: -1287566135
+      Bustersprites_45: -716595188
+      Bustersprites_46: -151454549
+      Bustersprites_47: 774343005
+      Bustersprites_48: -359856188
+      Bustersprites_49: 1277474470
+      Bustersprites_5: -760467451
+      Bustersprites_50: -1869201302
+      Bustersprites_51: -1751702054
+      Bustersprites_52: -82214640
+      Bustersprites_53: -561763286
+      Bustersprites_54: -1865728456
+      Bustersprites_55: -1067957501
+      Bustersprites_56: -495150736
+      Bustersprites_57: -1129606906
+      Bustersprites_58: 89706266
+      Bustersprites_59: -369264048
+      Bustersprites_6: 1746357342
+      Bustersprites_60: -1059619478
+      Bustersprites_61: -1896825575
+      Bustersprites_62: 1125274033
+      Bustersprites_63: 763761687
+      Bustersprites_64: -92631811
+      Bustersprites_65: 1042156538
+      Bustersprites_66: 698062848
+      Bustersprites_67: -1201761662
+      Bustersprites_68: -1577596939
+      Bustersprites_69: 662802282
+      Bustersprites_7: -1141393254
+      Bustersprites_70: -200238658
+      Bustersprites_71: -1769381497
+      Bustersprites_72: 106126660
+      Bustersprites_73: 7834356
+      Bustersprites_74: -13194356
+      Bustersprites_75: -1664492191
+      Bustersprites_76: 1631641153
+      Bustersprites_77: -1197088315
+      Bustersprites_78: 215039578
+      Bustersprites_79: -281996694
+      Bustersprites_8: -165416766
+      Bustersprites_80: 67044404
+      Bustersprites_81: 1830546064
+      Bustersprites_82: 1298239725
+      Bustersprites_83: -138463408
+      Bustersprites_84: 590320052
+      Bustersprites_85: -1456845134
+      Bustersprites_86: -1030359366
+      Bustersprites_87: -69334657
+      Bustersprites_88: 1379675694
+      Bustersprites_89: 1078164342
+      Bustersprites_9: -538304015
+      Bustersprites_90: -837005650
+      Bustersprites_91: -766376204
+      Bustersprites_92: 630924900
+      Bustersprites_93: -1159293510
+      Bustersprites_94: -57042550
+      Bustersprites_95: -1752917947
+      Bustersprites_96: -930947982
+      Bustersprites_97: 1728461954
+      Bustersprites_98: 1348842577
+      Bustersprites_99: -865377594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
