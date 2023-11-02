@@ -14,7 +14,7 @@ TagManager:
   - Escenario1
   - lejanoN1
   - cercanoN1
-  - 
+  - personaje
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Escenario1
     uniqueID: 728474893
+    locked: 0
+  - name: personaje
+    uniqueID: 1329629539
     locked: 0
