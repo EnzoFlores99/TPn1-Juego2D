@@ -5,7 +5,9 @@ using UnityEngine;
 public class CharacterJump : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private float jumpForce = 2500f; // fuerza que aplicamos al saltar
+    //[SerializeField] private float jumpForce = 1500f; // fuerza que aplicamos al saltar
+    private float jumpForce = 1400f;
+    public float Speed=0f;
     private bool isGrounded; //banadera que indica si el personaje esta en la plataforma
     private Rigidbody2D rb; // referencia al componente rigidbody2d del personaje
     private AudioSource audioSource;
@@ -24,9 +26,7 @@ public class CharacterJump : MonoBehaviour
         {
             Jump();
         }
-        ///////////
-        if (Horizontal < 0.0f) transform.localScale= new Vector3(-1.0f,1.0f,1.0f);
-        else if(Horizontal > 0.0f)transform.localScale= new Vector3(1.0f,1.0f,1.0f);
+        
     }
     // cuando el personaje colisiona con un objeto, se establece isGrounded como verdadero
     private void OnCollisionEnter2D(Collision2D collision)
@@ -41,7 +41,8 @@ public class CharacterJump : MonoBehaviour
     // funcion que aplica ina fuerza vertical para ejecutar el salto. Normalizamos el salto con deltaTime
     public void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce * Time.deltaTime);
+        //rb.velocity = new Vector2(rb.velocity.x, jumpForce * Time.deltaTime);
+       rb.AddForce(Vector2.up*jumpForce);
         PlayJumpSound();
     }
     private void PlayJumpSound()
