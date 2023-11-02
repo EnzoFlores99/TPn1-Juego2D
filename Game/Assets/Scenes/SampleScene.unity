@@ -1470,7 +1470,7 @@ Rigidbody2D:
   m_Mass: 1.4112
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ebfcd16d602f0a4cbf5c450c29d3cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1250
+  movementSpeed: 2500
 --- !u!114 &1165500846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8636cbfe71e44494eba91d52888660da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 2500
+  Speed: 0
 --- !u!1 &1414410866
 GameObject:
   m_ObjectHideFlags: 0
