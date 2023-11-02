@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Para que la camara siga al jugador en el eje x
+/// </summary>
 public class CameraScript : MonoBehaviour
 {
     public GameObject Character;
