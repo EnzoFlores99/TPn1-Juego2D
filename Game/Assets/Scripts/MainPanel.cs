@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class mainPanel : MonoBehaviour
 {
@@ -17,11 +18,30 @@ public class mainPanel : MonoBehaviour
    public GameObject SelectLevelPanel;
    public AudioSource FxSource;
    public AudioClip clickSound;
+   private float lastVol;
 
    public void Awake()
    {
       FxVolume.onValueChanged.AddListener(ChangeVolumeFx);
       volume.onValueChanged.AddListener(ChangeVolumeMaster);
+   }
+   public void PlayLevel(string levelName)
+   {
+      SceneManager.LoadScene(levelName);
+   }
+   public void SetMute()
+   {
+       
+       if (mute.isOn)
+       {
+         mixer.GetFloat("VolMaster",out lastVol);
+          mixer.SetFloat("VolMaster",-40);
+       }
+      else 
+      {
+         mixer.SetFloat("VolMaster",lastVol);
+      }
+        
    }
 
    public void OpenPanel(GameObject panel)
