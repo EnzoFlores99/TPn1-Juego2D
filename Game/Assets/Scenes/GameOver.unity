@@ -781,8 +781,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1686579140}
+  m_Children: []
   m_Father: {fileID: 1798490948}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -810,7 +809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -974,7 +973,7 @@ GameObject:
   - component: {fileID: 1686579138}
   m_Layer: 9
   m_Name: buster
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1061,11 +1060,11 @@ Transform:
   m_GameObject: {fileID: 1686579137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23, y: 37.078766, z: 0}
+  m_LocalPosition: {x: -3.2262573, y: -136.27876, z: 0}
   m_LocalScale: {x: 331.31802, y: 331.31802, z: 331.31802}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1213193641}
+  m_Father: {fileID: 1798490948}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1798490944
 GameObject:
@@ -1166,6 +1165,7 @@ RectTransform:
   - {fileID: 1808350887}
   - {fileID: 1093095059}
   - {fileID: 69585981}
+  - {fileID: 1686579140}
   - {fileID: 1213193641}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1186,8 +1186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b41716c495fe1d4685080951c02c218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restart: {fileID: 0}
-  playmenu: {fileID: 0}
+  restart: {fileID: 1650522748}
+  playmenu: {fileID: 1048816894}
 --- !u!95 &1798490950
 Animator:
   serializedVersion: 5
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 1808350887}
   - component: {fileID: 1808350889}
   - component: {fileID: 1808350888}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: backOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
