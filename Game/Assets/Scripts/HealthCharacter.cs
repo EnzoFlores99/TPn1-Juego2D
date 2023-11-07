@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthCharacter : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class HealthCharacter : MonoBehaviour
     {
         instance = this;
     }
+   
     void Start()
     {
         currentHealth = maxHealth;
@@ -40,6 +42,9 @@ public class HealthCharacter : MonoBehaviour
         {
             currentHealth=0;
             gameObject.SetActive(false);
+            GameOver();
+            
+
         }
         else
         {
@@ -50,5 +55,9 @@ public class HealthCharacter : MonoBehaviour
         ControllerHeart.instance.UpdateHealthDisplay();
         }
         
+    }
+    public void GameOver()
+    {
+           SceneManager.LoadScene(3);
     }
 }
