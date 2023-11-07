@@ -10,12 +10,13 @@ public class CharacterJump : MonoBehaviour
     public float Speed=0f;
     private bool isGrounded; //banadera que indica si el personaje esta en la plataforma
     private Rigidbody2D rb; // referencia al componente rigidbody2d del personaje
-    private AudioSource audioSource;
+    private AudioSource JumpSound;
     private float Horizontal;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // obtenemos la referencia al rigidbody2d del personaje
+        JumpSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -47,9 +48,9 @@ public class CharacterJump : MonoBehaviour
     }
     private void PlayJumpSound()
     {
-        if(audioSource != null)
+        if(JumpSound!= null)
         {
-            audioSource.Play();
+            JumpSound.Play();
         }
     }
 }
