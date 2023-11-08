@@ -5,14 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScript : MonoBehaviour
 {
-   public GameObject restart;
-   public GameObject playmenu;
-    
+   //metodo para reproducir una escena con el nombre de la misma
    public void PlayLevel(string levelName)
    {
+      //carga la escena de acuerdo a su nombre
       SceneManager.LoadScene(levelName);
    }
-
     
     void Update()
     {

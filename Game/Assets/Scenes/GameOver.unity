@@ -1283,8 +1283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b41716c495fe1d4685080951c02c218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restart: {fileID: 1650522748}
-  playmenu: {fileID: 1048816894}
 --- !u!95 &1798490950
 Animator:
   serializedVersion: 5
