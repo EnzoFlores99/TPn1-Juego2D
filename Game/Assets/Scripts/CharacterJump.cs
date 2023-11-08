@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class CharacterJump : MonoBehaviour
 {
-    // Start is called before the first frame update
-    //[SerializeField] private float jumpForce = 1500f; // fuerza que aplicamos al saltar
+    // fuerza que aplicamos al saltar
     private float jumpForce = 1400f;
-    public float Speed=0f;
-    private bool isGrounded; //banadera que indica si el personaje esta en la plataforma
-    private Rigidbody2D rb; // referencia al componente rigidbody2d del personaje
+     //banadera que indica si el personaje esta en la plataforma
+    private bool isGrounded;
+     // referencia al componente rigidbody2d del personaje
+    private Rigidbody2D rb;
+    //referencia al componente AudioSource del personaje
     private AudioSource JumpSound;
-    private float Horizontal;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // obtenemos la referencia al rigidbody2d del personaje
+        // obtenemos la referencia al rigidbody2d del personaje
+        rb = GetComponent<Rigidbody2D>(); 
+        //referencia del sonido del salto perteneciente al personaje
         JumpSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     private void Update()
     {
         // llamamos a la funcion Jump () si el personaje esta en una plataforma y se presiona el boton de saltar
@@ -39,15 +40,15 @@ public class CharacterJump : MonoBehaviour
     {
         isGrounded = false;
     }
-    // funcion que aplica ina fuerza vertical para ejecutar el salto. Normalizamos el salto con deltaTime
+    // funcion que aplica una fuerza vertical para ejecutar el salto. Normalizamos el salto con deltaTime
     public void Jump()
     {
-        //rb.velocity = new Vector2(rb.velocity.x, jumpForce * Time.deltaTime);
        rb.AddForce(Vector2.up*jumpForce);
+       // se llama a la uncion que reproduce un sonido
         PlayJumpSound();
     }
     private void PlayJumpSound()
-    {
+    {//se reproduce un sonido
         if(JumpSound!= null)
         {
             JumpSound.Play();

@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private float movementSpeed = 1250f; //velocidad de movimiento del personaje
-    private bool isFacingRight = true; //respresenta el valor de mirar a la derecha
-    private Rigidbody2D rb; //referencia al componente Rigibody2D del personaje
+     //velocidad de movimiento del personaje
+    [SerializeField] private float movementSpeed = 1250f;
+     //respresenta el valor de mirar a la derecha
+    private bool isFacingRight = true;
+     //referencia al componente Rigibody2D del personaje
+    private Rigidbody2D rb;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); //Obtenemos la referncia al Rigibody2D del personaje 
+         //Obtenemos la referncia al Rigibody2D del personaje 
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        float movementX = Input.GetAxis("Horizontal");//obtenemos la entrada del moviemnto hoizontal (-1 a 1) y la almacenamos en movementX
-        Move(movementX * movementSpeed); //normalizamos al multiplicar por deltatime
+        //obtenemos la entrada del moviemnto hoizontal (-1 a 1) y la almacenamos en movementX
+        float movementX = Input.GetAxis("Horizontal");
+         //normalizamos al multiplicar por deltatime
+        Move(movementX * movementSpeed);
         // giro del personaje si se mueve hacia la izquierda
         if (movementX < 0 && isFacingRight)
         {
@@ -39,7 +43,9 @@ public class CharacterMovement : MonoBehaviour
     // cambiamos la escala en el eje X para voltear el personaje
     private void Flip()
     {
+        //la escala se invierte solo en el eje X, hace que el objeto se invierta
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        //hace que valor booleano cambie, orientacion del objeto
         isFacingRight = !isFacingRight;
     }
 }
